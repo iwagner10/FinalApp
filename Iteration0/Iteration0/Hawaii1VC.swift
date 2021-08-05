@@ -8,6 +8,8 @@
 import UIKit
 
 class Hawaii1VC: UIViewController {
+    
+    var name : String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +18,7 @@ class Hawaii1VC: UIViewController {
     
     @IBAction func hawaiiCounty(_ sender: UIButton) {
         performSegue(withIdentifier: "hawaiiCountyButton", sender: self)
+        destinationVC?.name = name
     }
     
     @IBAction func honoluluCounty(_ sender: UIButton) {

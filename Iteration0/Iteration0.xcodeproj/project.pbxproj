@@ -25,6 +25,15 @@
 		0F6A4BFE26BA365100BD7CD8 /* kalawaoCountyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4BFD26BA365100BD7CD8 /* kalawaoCountyVC.swift */; };
 		0F6A4C0026BA3CD200BD7CD8 /* hawaiiYesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4BFF26BA3CD200BD7CD8 /* hawaiiYesVC.swift */; };
 		0F6A4C0226BA3E3800BD7CD8 /* hawaiiNoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4C0126BA3E3800BD7CD8 /* hawaiiNoVC.swift */; };
+		0F6A4C0426BB06D700BD7CD8 /* yesVaccineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4C0326BB06D700BD7CD8 /* yesVaccineVC.swift */; };
+		0F6A4C0626BB06FA00BD7CD8 /* noVaccineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4C0526BB06FA00BD7CD8 /* noVaccineVC.swift */; };
+		0F6A4C0826BB0CEB00BD7CD8 /* yes12VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4C0726BB0CEB00BD7CD8 /* yes12VC.swift */; };
+		0F6A4C0A26BB0CFA00BD7CD8 /* no12VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4C0926BB0CFA00BD7CD8 /* no12VC.swift */; };
+		0F6A4C0C26BB115A00BD7CD8 /* askNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4C0B26BB115A00BD7CD8 /* askNameVC.swift */; };
+		0F6A4C0E26BB118100BD7CD8 /* welcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4C0D26BB118100BD7CD8 /* welcomeVC.swift */; };
+		0F6A4C1026BB11A500BD7CD8 /* allResourcesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4C0F26BB11A500BD7CD8 /* allResourcesVC.swift */; };
+		0F6A4C1226BC285B00BD7CD8 /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4C1126BC285B00BD7CD8 /* NSAttributedString.swift */; };
+		0F6A4C1426BC5F2300BD7CD8 /* finalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4C1326BC5F2200BD7CD8 /* finalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +78,15 @@
 		0F6A4BFD26BA365100BD7CD8 /* kalawaoCountyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalawaoCountyVC.swift; sourceTree = "<group>"; };
 		0F6A4BFF26BA3CD200BD7CD8 /* hawaiiYesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawaiiYesVC.swift; sourceTree = "<group>"; };
 		0F6A4C0126BA3E3800BD7CD8 /* hawaiiNoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawaiiNoVC.swift; sourceTree = "<group>"; };
+		0F6A4C0326BB06D700BD7CD8 /* yesVaccineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yesVaccineVC.swift; sourceTree = "<group>"; };
+		0F6A4C0526BB06FA00BD7CD8 /* noVaccineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noVaccineVC.swift; sourceTree = "<group>"; };
+		0F6A4C0726BB0CEB00BD7CD8 /* yes12VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yes12VC.swift; sourceTree = "<group>"; };
+		0F6A4C0926BB0CFA00BD7CD8 /* no12VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = no12VC.swift; sourceTree = "<group>"; };
+		0F6A4C0B26BB115A00BD7CD8 /* askNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = askNameVC.swift; sourceTree = "<group>"; };
+		0F6A4C0D26BB118100BD7CD8 /* welcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeVC.swift; sourceTree = "<group>"; };
+		0F6A4C0F26BB11A500BD7CD8 /* allResourcesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allResourcesVC.swift; sourceTree = "<group>"; };
+		0F6A4C1126BC285B00BD7CD8 /* NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		0F6A4C1326BC5F2200BD7CD8 /* finalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +117,7 @@
 		0F6A4BB226BA2F2900BD7CD8 = {
 			isa = PBXGroup;
 			children = (
-				0F6A4C0126BA3E3800BD7CD8 /* hawaiiNoVC.swift */,
-				0F6A4BFF26BA3CD200BD7CD8 /* hawaiiYesVC.swift */,
-				0F6A4BFD26BA365100BD7CD8 /* kalawaoCountyVC.swift */,
-				0F6A4BFB26BA360C00BD7CD8 /* kauaiCountyVC.swift */,
-				0F6A4BF926BA35D800BD7CD8 /* mauiCountyVC.swift */,
-				0F6A4BF726BA35BB00BD7CD8 /* honoluluCountyVC.swift */,
-				0F6A4BF526BA359700BD7CD8 /* hawaiiCountyVC.swift */,
+				0F6A4C1326BC5F2200BD7CD8 /* finalVC.swift */,
 				0F6A4BBD26BA2F2900BD7CD8 /* Iteration0 */,
 				0F6A4BD726BA2F2C00BD7CD8 /* Iteration0Tests */,
 				0F6A4BE226BA2F2C00BD7CD8 /* Iteration0UITests */,
@@ -126,12 +138,27 @@
 		0F6A4BBD26BA2F2900BD7CD8 /* Iteration0 */ = {
 			isa = PBXGroup;
 			children = (
+				0F6A4C0926BB0CFA00BD7CD8 /* no12VC.swift */,
+				0F6A4C0726BB0CEB00BD7CD8 /* yes12VC.swift */,
+				0F6A4C0526BB06FA00BD7CD8 /* noVaccineVC.swift */,
+				0F6A4C0326BB06D700BD7CD8 /* yesVaccineVC.swift */,
+				0F6A4BFD26BA365100BD7CD8 /* kalawaoCountyVC.swift */,
+				0F6A4BF926BA35D800BD7CD8 /* mauiCountyVC.swift */,
+				0F6A4BF526BA359700BD7CD8 /* hawaiiCountyVC.swift */,
+				0F6A4BF726BA35BB00BD7CD8 /* honoluluCountyVC.swift */,
+				0F6A4BFB26BA360C00BD7CD8 /* kauaiCountyVC.swift */,
+				0F6A4BFF26BA3CD200BD7CD8 /* hawaiiYesVC.swift */,
+				0F6A4C0126BA3E3800BD7CD8 /* hawaiiNoVC.swift */,
 				0F6A4BBE26BA2F2900BD7CD8 /* AppDelegate.swift */,
 				0F6A4BC026BA2F2900BD7CD8 /* SceneDelegate.swift */,
 				0F6A4BC226BA2F2900BD7CD8 /* ViewController.swift */,
 				0F6A4BC426BA2F2900BD7CD8 /* Main.storyboard */,
+				0F6A4C0F26BB11A500BD7CD8 /* allResourcesVC.swift */,
+				0F6A4C0D26BB118100BD7CD8 /* welcomeVC.swift */,
+				0F6A4C0B26BB115A00BD7CD8 /* askNameVC.swift */,
 				0F6A4BF326BA2F8000BD7CD8 /* RI1VC.swift */,
 				0F6A4BF126BA2F6800BD7CD8 /* Hawaii1VC.swift */,
+				0F6A4C1126BC285B00BD7CD8 /* NSAttributedString.swift */,
 				0F6A4BCA26BA2F2B00BD7CD8 /* Assets.xcassets */,
 				0F6A4BCC26BA2F2B00BD7CD8 /* LaunchScreen.storyboard */,
 				0F6A4BCF26BA2F2B00BD7CD8 /* Info.plist */,
@@ -288,14 +315,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F6A4C1026BB11A500BD7CD8 /* allResourcesVC.swift in Sources */,
 				0F6A4BC326BA2F2900BD7CD8 /* ViewController.swift in Sources */,
+				0F6A4C0C26BB115A00BD7CD8 /* askNameVC.swift in Sources */,
 				0F6A4BBF26BA2F2900BD7CD8 /* AppDelegate.swift in Sources */,
+				0F6A4C0E26BB118100BD7CD8 /* welcomeVC.swift in Sources */,
 				0F6A4BF826BA35BB00BD7CD8 /* honoluluCountyVC.swift in Sources */,
 				0F6A4BF626BA359700BD7CD8 /* hawaiiCountyVC.swift in Sources */,
+				0F6A4C1426BC5F2300BD7CD8 /* finalVC.swift in Sources */,
+				0F6A4C1226BC285B00BD7CD8 /* NSAttributedString.swift in Sources */,
 				0F6A4BC926BA2F2900BD7CD8 /* Iteration0.xcdatamodeld in Sources */,
+				0F6A4C0A26BB0CFA00BD7CD8 /* no12VC.swift in Sources */,
+				0F6A4C0826BB0CEB00BD7CD8 /* yes12VC.swift in Sources */,
 				0F6A4BF226BA2F6800BD7CD8 /* Hawaii1VC.swift in Sources */,
+				0F6A4C0626BB06FA00BD7CD8 /* noVaccineVC.swift in Sources */,
 				0F6A4C0226BA3E3800BD7CD8 /* hawaiiNoVC.swift in Sources */,
 				0F6A4BFC26BA360C00BD7CD8 /* kauaiCountyVC.swift in Sources */,
+				0F6A4C0426BB06D700BD7CD8 /* yesVaccineVC.swift in Sources */,
 				0F6A4BFA26BA35D800BD7CD8 /* mauiCountyVC.swift in Sources */,
 				0F6A4BC126BA2F2900BD7CD8 /* SceneDelegate.swift in Sources */,
 				0F6A4C0026BA3CD200BD7CD8 /* hawaiiYesVC.swift in Sources */,

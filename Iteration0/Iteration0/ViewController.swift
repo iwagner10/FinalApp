@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var name : String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,8 +28,12 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "hawaiiButton" {
             let destinationVC = segue.destination as? Hawaii1VC
+            
+            destinationVC?.name = name
+            
         } else if segue.identifier == "riButton" {
             let destinationVC = segue.destination as? RI1VC
+            
         }
     }
     
