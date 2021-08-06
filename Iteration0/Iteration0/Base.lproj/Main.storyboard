@@ -37,10 +37,6 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="05cac4eac5dd11ef1a99a9dc8991a465" translatesAutoresizingMaskIntoConstraints="NO" id="gQC-ke-RoV">
-                                <rect key="frame" x="0.0" y="465" width="390" height="411"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="viH-3K-Reh">
                                 <rect key="frame" x="166" y="292" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -51,6 +47,10 @@
                                     <action selector="continueFirst:" destination="odt-xb-M63" eventType="touchUpInside" id="89P-a3-MEU"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="05cac4eac5dd11ef1a99a9dc8991a465" translatesAutoresizingMaskIntoConstraints="NO" id="gQC-ke-RoV">
+                                <rect key="frame" x="1" y="451" width="390" height="411"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IVy-dF-GBY"/>
                         <color key="backgroundColor" red="0.96077269320000003" green="0.96077829599999998" blue="0.96079295870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -459,17 +459,41 @@
                     <view key="view" contentMode="scaleToFill" id="4vo-B0-L3J">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="thank you, name, for completing the quiz!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ief-Mo-sgQ">
+                                <rect key="frame" x="49" y="59" width="293" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjq-pI-RON">
+                                <rect key="frame" x="125" y="328" width="140" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="return to home page">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="returnHomePage:" destination="JFn-G7-HDY" eventType="touchUpInside" id="qhQ-gc-8fe"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="05cac4eac5dd11ef1a99a9dc8991a465" translatesAutoresizingMaskIntoConstraints="NO" id="kcr-AV-hno">
+                                <rect key="frame" x="0.0" y="412" width="390" height="411"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="RjV-am-fZu"/>
                         <color key="backgroundColor" red="0.96077269320000003" green="0.96077829599999998" blue="0.96079295870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="ejP-vm-kFf"/>
                     <connections>
+                        <outlet property="nameTextLabel" destination="Ief-Mo-sgQ" id="dEQ-VB-vFl"/>
                         <segue destination="odt-xb-M63" kind="show" identifier="returnHome" id="hqj-00-kcu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F8t-SI-ysb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1366" y="-2296"/>
+            <point key="canvasLocation" x="-1438.4615384615383" y="-2375.1184834123223"/>
         </scene>
         <!--No12VC-->
         <scene sceneID="ywf-Q2-zBM">
@@ -658,10 +682,10 @@
                                 <rect key="frame" x="61" y="225" width="269" height="287"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96077269320000003" green="0.96077829599999998" blue="0.96079295870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">🔬 Trials have proven the vaccines are safe and effective
+                                <string key="text">🔬 Trials have proven the vaccines are safe and effective
 🙏 More vaccinations = higher chance of returning to normalcy
 🥰 Protect your community and loved ones who are at high risk
-💸 Receive discounts and be entered to win big cash prizes, gift cards + more in Hawaii! </mutableString>
+💸 Receive discounts and be entered to win big cash prizes, gift cards + more in Hawaii! </string>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -728,7 +752,7 @@
                                 <rect key="frame" x="58" y="153" width="275" height="355"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96077269320000003" green="0.96077829599999998" blue="0.96079295870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">📍 Bay Clinic
+                                <string key="text">📍 Bay Clinic
 📍 Foodland (Sack N Save) pharmacy
 📍 Hamakua-Kohala Health Centers
 📍 Hilo Medical Center
@@ -737,7 +761,7 @@
 📍 Queen’s North Hawai‘i Community Hospital
 📍 Safeway pharmacy
 📍 Vaccine Administration Management System (VAMS)
-📍 West Hawai‘i Community Health Center</mutableString>
+📍 West Hawai‘i Community Health Center</string>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1099,7 +1123,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="oR6-hk-5Qv"/>
+        <segue reference="6Ii-oL-qnR"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="05cac4eac5dd11ef1a99a9dc8991a465" width="640" height="640"/>

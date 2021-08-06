@@ -117,7 +117,6 @@
 		0F6A4BB226BA2F2900BD7CD8 = {
 			isa = PBXGroup;
 			children = (
-				0F6A4C1326BC5F2200BD7CD8 /* finalVC.swift */,
 				0F6A4BBD26BA2F2900BD7CD8 /* Iteration0 */,
 				0F6A4BD726BA2F2C00BD7CD8 /* Iteration0Tests */,
 				0F6A4BE226BA2F2C00BD7CD8 /* Iteration0UITests */,
@@ -159,6 +158,7 @@
 				0F6A4BF326BA2F8000BD7CD8 /* RI1VC.swift */,
 				0F6A4BF126BA2F6800BD7CD8 /* Hawaii1VC.swift */,
 				0F6A4C1126BC285B00BD7CD8 /* NSAttributedString.swift */,
+				0F6A4C1326BC5F2200BD7CD8 /* finalVC.swift */,
 				0F6A4BCA26BA2F2B00BD7CD8 /* Assets.xcassets */,
 				0F6A4BCC26BA2F2B00BD7CD8 /* LaunchScreen.storyboard */,
 				0F6A4BCF26BA2F2B00BD7CD8 /* Info.plist */,

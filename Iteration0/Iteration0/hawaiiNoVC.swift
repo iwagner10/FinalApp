@@ -28,6 +28,7 @@ class hawaiiNoVC: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "planOnVaccine" {
             let destinationVC = segue.destination as? yesVaccineVC
+            destinationVC?.name = name
         } else if segue.identifier == "noPlanOnVaccine" {
             let destinationVC = segue.destination as? noVaccineVC
         }

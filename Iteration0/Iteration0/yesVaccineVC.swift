@@ -9,6 +9,8 @@ import UIKit
 
 class yesVaccineVC: UIViewController {
 
+    var name : String = ""
+    
     @IBOutlet weak var source1: UITextView!
     
     override func viewDidLoad() {
@@ -37,6 +39,7 @@ class yesVaccineVC: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "yesVaccineFinal" {
             let destinationVC = segue.destination as? finalVC
+            destinationVC?.name = name
         }
     }
 

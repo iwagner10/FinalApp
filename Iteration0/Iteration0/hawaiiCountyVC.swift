@@ -23,14 +23,16 @@ class hawaiiCountyVC: UIViewController {
     
     @IBAction func hawaiiCountyNo(_ sender: Any) {
         performSegue(withIdentifier: "hawaiiCountyNo", sender: self)
-        destinationVC?.name = name
+       //  destinationVC?.name = name
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "hawaiiCountyYes" {
             let destinationVC = segue.destination as? hawaiiYesVC
+        
         } else if segue.identifier == "hawaiiCountyNo" {
             let destinationVC = segue.destination as? hawaiiNoVC
+            destinationVC?.name = name
         }
     }
     

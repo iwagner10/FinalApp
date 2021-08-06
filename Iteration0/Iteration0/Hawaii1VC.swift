@@ -18,7 +18,7 @@ class Hawaii1VC: UIViewController {
     
     @IBAction func hawaiiCounty(_ sender: UIButton) {
         performSegue(withIdentifier: "hawaiiCountyButton", sender: self)
-        destinationVC?.name = name
+       
     }
     
     @IBAction func honoluluCounty(_ sender: UIButton) {
@@ -40,6 +40,7 @@ class Hawaii1VC: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "hawaiiCountyButton" {
             let destinationVC = segue.destination as? hawaiiCountyVC
+            destinationVC?.name = name
         } else if segue.identifier == "honoluluCountyButton" {
             let destinationVC = segue.destination as? honoluluCountyVC
         } else if segue.identifier == "mauiCountyButton" {
